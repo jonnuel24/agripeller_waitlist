@@ -1,0 +1,12 @@
+form{
+  width: 400px !important;
+  background-color: rgb(212, 212, 212);
+  padding: 8px;
+
+}
+
+@media screen {max-width: 762px;
+
+  
+  
+}

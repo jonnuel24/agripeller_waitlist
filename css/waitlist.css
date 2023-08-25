@@ -1,0 +1,202 @@
+.navbar{
+  align-content: center;
+  background-color: #fff;
+  height: fit-content;
+}
+
+.nav-cta{
+  width: 204px;
+  justify-content: space-between;
+  
+}
+
+.btn-waitlist{
+  margin:-44px ;
+  height: 48px;
+  width: 280px;
+}
+
+.btn-success{
+  background: #006838!important;
+}
+.nav-input{
+border-radius: 5px;
+border: 1px solid #ABABAB;
+background: #EFEFEF;
+}
+
+.hero-h1{
+color: #FFF;
+font-family: 'DM Sans', sans-serif;
+/* font-family: 'Poppins', sans-serif; */
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: flex;
+}
+
+.hero-p{
+  color: #FFF;
+  font-family: 'DM Sans', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: auto;
+height: 100%;
+flex-shrink: 0;
+}
+
+.google-form{
+  width: 180px;
+  align-content: center;
+}
+.hero-section{
+  background-image: url(../images/background_img.svg);
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  margin-top:0;
+  padding-top:8px;
+}
+
+.nav-form{
+  margin-top: 36px;
+}
+
+.hero-article{
+  color: #FFF;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+}
+
+.hero-right-pic{
+width: 60%;
+height: auto;
+}
+
+.div-up{
+  display: flex;
+}
+
+.div-down{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+  margin-top: 45px;
+}
+
+.social-media{
+  margin-bottom: 16px;
+}
+
+
+@keyframes slide {
+  from{
+    transform: translatex(100%)
+  }
+
+  to{
+    transform: translatex(-100%)
+  }
+  
+}
+
+.banner-slide{
+  display: inline-block;
+  animation: 20s slide infinite linear;
+}
+
+.banner .banner-slide img{
+  height: 50px;
+  margin: 0 10px;
+}
+
+.banner{
+  width: 400px;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+  margin-top: 24px;
+  
+}
+.banner:hover .banner-slide {
+  animation-play-state: paused;
+}
+
+.banner:before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25px;
+  height: 100%;
+
+  content: "" ;
+  z-index: 2;
+}
+
+.ion-icon{
+  margin-top: 50px;
+}
+
+.img-thumbnail{
+  width: 48px;
+}
+
+@media(max-width: 767px){
+  .hero-section{
+  background-image: url(../images/mobile_bg.svg);
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: auto;
+  }
+
+  nav a img{
+    width: 150px;
+    height: auto;
+  }
+
+  .div-down{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+    margin-top: 64px;
+  }
+  
+  .m-2{
+    display:none !important;
+  }
+
+  .hero-right-pic{
+    width: 400px;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .btn-waitlist{
+  margin:-44px ;
+  height: 50px;
+  width: 280px;
+  justify-content: space-evenly;
+  gap: 0px;
+  display: flex;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  align-content: center;
+  align-items: center;
+}
+}
+

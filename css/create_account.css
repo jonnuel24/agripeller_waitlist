@@ -1,0 +1,62 @@
+body{
+  height: 100vh;
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+
+}
+
+.create_account_CTA{
+  max-width: 500px ;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+  gap: 16px;
+}
+
+.create_account_CTA p{
+color: #000;
+font-family: 'DM Sans', sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.create_account_CTA .btn{
+  height:50px ;
+}
+
+.create_account_CTA h6 a{
+  font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+cursor: pointer;
+color: #006838;
+text-decoration: none;
+
+}
+
+.create_account_CTA h6{
+  margin-left: 300px;
+}
+.col-4{
+  height: 100vh;
+}
+
+.col-8{
+  align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.col-8 img{
+  width: 160px; 
+  height: auto; 
+  position: absolut; 
+  margin-top: 550px;
+}
